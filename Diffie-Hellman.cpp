@@ -30,7 +30,7 @@ long long int power(long long int a, long long int b,  long long int N)
 } 
 int main(){
 	int P, N, G, a, x, b, y, ka, kb;
-Failed:
+
     cout<<"Input Prime Key [P]: "; cin>>N;
 
           P = KeyPrima(N);
@@ -44,7 +44,7 @@ Failed:
               {
               	cout<<"Key Failed"<<endl;
 
-                goto Failed;
+                return 0;
               }
 
 
